@@ -119,7 +119,6 @@ async def handle_request(query, session_id, current_order_id=None):
 
 async def main():
     """Główna pętla interfejsu użytkownika."""
-    print("\033[92m System BOK v7 gotowy. Inicjalizacja...\033[0m")
     app_instance.set_up()
     print("\033[92m Połączono z BigQuery. Możesz wpisać zapytanie.\033[0m")
   
